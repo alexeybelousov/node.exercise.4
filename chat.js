@@ -16,6 +16,6 @@ module.exports = class ChatApp extends EventEmitter {
   }
 
   close(message) {
-    this.emit('close', 'message');
+    this.emit('close', message);
   }
 }
